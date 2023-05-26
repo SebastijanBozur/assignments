@@ -12,10 +12,7 @@ chorus-occurrence-4.txt
 
 chorus-occurrence-5.txt
 
-Ako si posla spavat
-bila ti laka noc
-druzina nasa s pjesmom
-zakantat ce ti doc'
+chorus-occurrence-6.txt
 
 Otvori tada prozor
 i slusaj nase note

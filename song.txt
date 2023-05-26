@@ -14,7 +14,4 @@ chorus-occurrence-5.txt
 
 chorus-occurrence-6.txt
 
-Otvori tada prozor
-i slusaj nase note
-o ljubavi cemo pjevat
-la musica di notte
+chorus-occurrence-7.txt

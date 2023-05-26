@@ -1,7 +1,4 @@
-Usred tisine grada
-i usnule ljepote
-tiha se cuje gitara
-la musica di notte
+verse1.txt
 
 Ako si posla spavat
 bila ti laka noc

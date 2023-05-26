@@ -1,0 +1,577 @@
+##### git log
+
+commit 4ffaf3170ad6038d64404a47e1e7be6fa4ca627e (HEAD -> master)
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:30:03 2023 +0100
+
+    removed duplicate chorus files and added them to song.txt
+
+commit a42d89a9e9c445398e82ce90ea35ac7f3f127887
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:21:09 2023 +0100
+
+    removed 7th verse and added chorus-occurrence-7.txt
+
+commit 695857688937f3f741bea6c5fd1bb17fd4004033
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:14:25 2023 +0100
+
+    Revert "removed last line from chorus-occurrence-1.txt"
+
+    This reverts commit 2f9c9ac3f081212f90b9381b720ed1fa97e3f3d5.
+
+commit 52235cfc8c811d8a2ff39ee5bb4fe2ecf20edbec
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:10:01 2023 +0100
+
+    Revert "removed 7th chorus and added chorus-occurrence-7.txt"
+
+    This reverts commit 6677c313de024d77712fce8762209fa15f86a7da.
+
+commit 2f9c9ac3f081212f90b9381b720ed1fa97e3f3d5
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:08:46 2023 +0100
+
+    removed last line from chorus-occurrence-1.txt
+
+commit 6677c313de024d77712fce8762209fa15f86a7da
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:48:54 2023 +0100
+
+    removed 7th chorus and added chorus-occurrence-7.txt
+
+commit 4eda1c530244444ca7ec02ceb2cdf4572fd96f06
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:47:00 2023 +0100
+
+    removed 6th chorus and added chorus-occurrence-6.txt
+
+commit 3ed6c68cdfd11ee72048d093ca564f99cc6086de
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:44:10 2023 +0100
+
+    removed 5th chorus and added chorus-occurrence-5.txt
+
+commit b688d46f21038203973fbdb0fc9001f67674765b
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:41:14 2023 +0100
+
+    removed 4th chorus and added chorus-occurrence-4.txt
+
+commit fe8f59f5cc97c7c39da933ca64aee674677c0c41
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:32:49 2023 +0100
+
+    removed 3rd chorus and added chorus-occurrence-3.txt
+
+commit fd8205e1cb39f24dfa13ab16a0bb2b00af24ef83
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:30:13 2023 +0100
+
+    removed 2nd chorus and added chorus-occurrence-2.txt
+
+commit 9f3797733a26d5d401da6fbe9a0c1edf893ef7fb
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:27:33 2023 +0100
+
+    removed 1st chorus and added chorus-occurrence-1.txt
+
+commit cfae6014768a782a14791e7985b40cf0f824af79
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:20:06 2023 +0100
+
+    removed 2nd verse and added verse2.txt
+
+commit 8e852b716505eeef3bc850c0b13574180a5a0ba1
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:12:40 2023 +0100
+
+    removed 1st verse and added verse1.txt
+
+commit 041260ae2aa63f5556c5536248d2970d14d4c3e4
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:06:47 2023 +0100
+
+    original
+
+
+##### git log -p song.txt
+
+
+commit 4ffaf3170ad6038d64404a47e1e7be6fa4ca627e (HEAD -> master)
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:30:03 2023 +0100
+
+    removed duplicate chorus files and added them to song.txt
+
+diff --git a/song.txt b/song.txt
+index 373379a..04ac37a 100644
+--- a/song.txt
++++ b/song.txt
+@@ -6,12 +6,27 @@ chorus-occurrence-2.txt
+
+ verse2.txt
+
+-chorus-occurrence-3.txt
+-
+-chorus-occurrence-4.txt
+-
+-chorus-occurrence-5.txt
+-
+-chorus-occurrence-6.txt
+-
+-chorus-occurrence-7.txt
+\ No newline at end of file
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
++
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
++
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
+\ No newline at end of file
+
+commit a42d89a9e9c445398e82ce90ea35ac7f3f127887
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:21:09 2023 +0100
+
+    removed 7th verse and added chorus-occurrence-7.txt
+
+diff --git a/song.txt b/song.txt
+index 4b8b299..373379a 100644
+--- a/song.txt
++++ b/song.txt
+@@ -14,7 +14,4 @@ chorus-occurrence-5.txt
+
+ chorus-occurrence-6.txt
+
+-Otvori tada prozor
+-i slusaj nase note
+-o ljubavi cemo pjevat
+-la musica di notte
+\ No newline at end of file
++chorus-occurrence-7.txt
+\ No newline at end of file
+
+commit 52235cfc8c811d8a2ff39ee5bb4fe2ecf20edbec
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:10:01 2023 +0100
+
+    Revert "removed 7th chorus and added chorus-occurrence-7.txt"
+
+    This reverts commit 6677c313de024d77712fce8762209fa15f86a7da.
+
+diff --git a/song.txt b/song.txt
+index 373379a..4b8b299 100644
+--- a/song.txt
++++ b/song.txt
+@@ -14,4 +14,7 @@ chorus-occurrence-5.txt
+
+ chorus-occurrence-6.txt
+
+-chorus-occurrence-7.txt
+\ No newline at end of file
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
+\ No newline at end of file
+
+commit 6677c313de024d77712fce8762209fa15f86a7da
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:48:54 2023 +0100
+
+    removed 7th chorus and added chorus-occurrence-7.txt
+
+diff --git a/song.txt b/song.txt
+index 4b8b299..373379a 100644
+--- a/song.txt
++++ b/song.txt
+@@ -14,7 +14,4 @@ chorus-occurrence-5.txt
+
+ chorus-occurrence-6.txt
+
+-Otvori tada prozor
+-i slusaj nase note
+-o ljubavi cemo pjevat
+-la musica di notte
+\ No newline at end of file
++chorus-occurrence-7.txt
+\ No newline at end of file
+
+commit 4eda1c530244444ca7ec02ceb2cdf4572fd96f06
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:47:00 2023 +0100
+
+    removed 6th chorus and added chorus-occurrence-6.txt
+
+diff --git a/song.txt b/song.txt
+index a742cd2..4b8b299 100644
+--- a/song.txt
++++ b/song.txt
+@@ -12,10 +12,7 @@ chorus-occurrence-4.txt
+
+ chorus-occurrence-5.txt
+
+-Ako si posla spavat
+-bila ti laka noc
+-druzina nasa s pjesmom
+-zakantat ce ti doc'
++chorus-occurrence-6.txt
+
+ Otvori tada prozor
+ i slusaj nase note
+
+commit 3ed6c68cdfd11ee72048d093ca564f99cc6086de
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:44:10 2023 +0100
+
+    removed 5th chorus and added chorus-occurrence-5.txt
+
+diff --git a/song.txt b/song.txt
+index 39f040e..a742cd2 100644
+--- a/song.txt
++++ b/song.txt
+@@ -10,10 +10,7 @@ chorus-occurrence-3.txt
+
+ chorus-occurrence-4.txt
+
+-Otvori tada prozor
+-i slusaj nase note
+-o ljubavi cemo pjevat
+-la musica di notte
++chorus-occurrence-5.txt
+
+ Ako si posla spavat
+ bila ti laka noc
+
+commit b688d46f21038203973fbdb0fc9001f67674765b
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:41:14 2023 +0100
+
+    removed 4th chorus and added chorus-occurrence-4.txt
+
+diff --git a/song.txt b/song.txt
+index a0a1a6e..39f040e 100644
+--- a/song.txt
++++ b/song.txt
+@@ -8,10 +8,7 @@ verse2.txt
+
+ chorus-occurrence-3.txt
+
+-Otvori tada prozor
+-i slusaj nase note
+-o ljubavi cemo pjevat
+-la musica di notte
++chorus-occurrence-4.txt
+
+ Otvori tada prozor
+ i slusaj nase note
+
+commit fe8f59f5cc97c7c39da933ca64aee674677c0c41
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:32:49 2023 +0100
+
+    removed 3rd chorus and added chorus-occurrence-3.txt
+
+diff --git a/song.txt b/song.txt
+index 1b61a20..a0a1a6e 100644
+--- a/song.txt
++++ b/song.txt
+@@ -6,10 +6,7 @@ chorus-occurrence-2.txt
+
+ verse2.txt
+
+-Ako si posla spavat
+-bila ti laka noc
+-druzina nasa s pjesmom
+-zakantat ce ti doc'
++chorus-occurrence-3.txt
+
+ Otvori tada prozor
+ i slusaj nase note
+
+commit fd8205e1cb39f24dfa13ab16a0bb2b00af24ef83
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:30:13 2023 +0100
+
+    removed 2nd chorus and added chorus-occurrence-2.txt
+
+diff --git a/song.txt b/song.txt
+index aaedc82..1b61a20 100644
+--- a/song.txt
++++ b/song.txt
+@@ -2,10 +2,7 @@ verse1.txt
+
+ chorus-occurrence-1.txt
+
+-Otvori tada prozor
+-i slusaj nase note
+-o ljubavi cemo pjevat
+-la musica di notte
++chorus-occurrence-2.txt
+
+ verse2.txt
+
+
+commit 9f3797733a26d5d401da6fbe9a0c1edf893ef7fb
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:27:33 2023 +0100
+
+    removed 1st chorus and added chorus-occurrence-1.txt
+
+diff --git a/song.txt b/song.txt
+index 74e68f7..aaedc82 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,9 +1,6 @@
+ verse1.txt
+
+-Ako si posla spavat
+-bila ti laka noc
+-druzina nasa s pjesmom
+-zakantat ce ti doc'
++chorus-occurrence-1.txt
+
+ Otvori tada prozor
+ i slusaj nase note
+
+commit cfae6014768a782a14791e7985b40cf0f824af79
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:20:06 2023 +0100
+
+    removed 2nd verse and added verse2.txt
+
+diff --git a/song.txt b/song.txt
+index f04b65f..74e68f7 100644
+--- a/song.txt
++++ b/song.txt
+@@ -10,10 +10,7 @@ i slusaj nase note
+ o ljubavi cemo pjevat
+ la musica di notte
+
+-Usred tisine grada
+-i usnule ljepote
+-tiha se cuje gitara
+-la musica di notte
++verse2.txt
+
+ Ako si posla spavat
+ bila ti laka noc
+
+commit 8e852b716505eeef3bc850c0b13574180a5a0ba1
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:12:40 2023 +0100
+
+    removed 1st verse and added verse1.txt
+
+diff --git a/song.txt b/song.txt
+index 8907899..f04b65f 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,7 +1,4 @@
+-Usred tisine grada
+-i usnule ljepote
+-tiha se cuje gitara
+-la musica di notte
++verse1.txt
+
+ Ako si posla spavat
+ bila ti laka noc
+
+commit 041260ae2aa63f5556c5536248d2970d14d4c3e4
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:06:47 2023 +0100
+
+    original
+
+diff --git a/song.txt b/song.txt
+new file mode 100644
+index 0000000..8907899
+--- /dev/null
++++ b/song.txt
+@@ -0,0 +1,44 @@
++Usred tisine grada
++i usnule ljepote
++tiha se cuje gitara
++la musica di notte
++
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
++
++Usred tisine grada
++i usnule ljepote
++tiha se cuje gitara
++la musica di notte
++
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
++
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
++
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
+\ No newline at end of file
+
+
+##### git log -p chorus-occurrence-1.txt
+
+ccommit 695857688937f3f741bea6c5fd1bb17fd4004033
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:14:25 2023 +0100
+
+    Revert "removed last line from chorus-occurrence-1.txt"
+
+    This reverts commit 2f9c9ac3f081212f90b9381b720ed1fa97e3f3d5.
+
+diff --git a/chorus-occurrence-1.txt b/chorus-occurrence-1.txt
+index 2acb289..aa1bb51 100644
+--- a/chorus-occurrence-1.txt
++++ b/chorus-occurrence-1.txt
+@@ -1,3 +1,4 @@
+ Ako si posla spavat
+ bila ti laka noc
+ druzina nasa s pjesmom
++zakantat ce ti doc'
+\ No newline at end of file
+
+commit 2f9c9ac3f081212f90b9381b720ed1fa97e3f3d5
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 15:08:46 2023 +0100
+
+    removed last line from chorus-occurrence-1.txt
+
+diff --git a/chorus-occurrence-1.txt b/chorus-occurrence-1.txt
+index aa1bb51..2acb289 100644
+--- a/chorus-occurrence-1.txt
++++ b/chorus-occurrence-1.txt
+@@ -1,4 +1,3 @@
+ Ako si posla spavat
+ bila ti laka noc
+ druzina nasa s pjesmom
+-zakantat ce ti doc'
+\ No newline at end of file
+
+commit 9f3797733a26d5d401da6fbe9a0c1edf893ef7fb
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:27:33 2023 +0100
+
+    removed 1st chorus and added chorus-occurrence-1.txt
+
+diff --git a/chorus-occurrence-1.txt b/chorus-occurrence-1.txt
+new file mode 100644
+index 0000000..aa1bb51
+--- /dev/null
++++ b/chorus-occurrence-1.txt
+@@ -0,0 +1,4 @@
++Ako si posla spavat
++bila ti laka noc
++druzina nasa s pjesmom
++zakantat ce ti doc'
+\ No newline at end of file
+
+
+
+##### git log -p chorus-occurrence-2.txt
+
+commit fd8205e1cb39f24dfa13ab16a0bb2b00af24ef83
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:30:13 2023 +0100
+
+    removed 2nd chorus and added chorus-occurrence-2.txt
+
+diff --git a/chorus-occurrence-2.txt b/chorus-occurrence-2.txt
+new file mode 100644
+index 0000000..4cc8927
+--- /dev/null
++++ b/chorus-occurrence-2.txt
+@@ -0,0 +1,4 @@
++Otvori tada prozor
++i slusaj nase note
++o ljubavi cemo pjevat
++la musica di notte
+\ No newline at end of file
+
+
+
+##### git log -p verse1.txt
+
+commit 8e852b716505eeef3bc850c0b13574180a5a0ba1
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:12:40 2023 +0100
+
+    removed 1st verse and added verse1.txt
+
+diff --git a/verse1.txt b/verse1.txt
+new file mode 100644
+index 0000000..8a7c718
+--- /dev/null
++++ b/verse1.txt
+@@ -0,0 +1,4 @@
++Usred tisine grada
++i usnule ljepote
++tiha se cuje gitara
++la musica di notte
+\ No newline at end of file
+
+
+##### git log -p verse2.txt
+
+commit cfae6014768a782a14791e7985b40cf0f824af79
+Author: TeraVita <teravita9@gmail.com>
+Date:   Fri May 26 14:20:06 2023 +0100
+
+    removed 2nd verse and added verse2.txt
+
+diff --git a/verse2.txt b/verse2.txt
+new file mode 100644
+index 0000000..8a7c718
+--- /dev/null
++++ b/verse2.txt
+@@ -0,0 +1,4 @@
++Usred tisine grada
++i usnule ljepote
++tiha se cuje gitara
++la musica di notte
+\ No newline at end of file

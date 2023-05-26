@@ -10,10 +10,7 @@ chorus-occurrence-3.txt
 
 chorus-occurrence-4.txt
 
-Otvori tada prozor
-i slusaj nase note
-o ljubavi cemo pjevat
-la musica di notte
+chorus-occurrence-5.txt
 
 Ako si posla spavat
 bila ti laka noc

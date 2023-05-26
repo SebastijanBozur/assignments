@@ -2,10 +2,7 @@ verse1.txt
 
 chorus-occurrence-1.txt
 
-Otvori tada prozor
-i slusaj nase note
-o ljubavi cemo pjevat
-la musica di notte
+chorus-occurrence-2.txt
 
 verse2.txt
 
